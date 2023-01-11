@@ -31,16 +31,16 @@
 #     for items in lst:
 #         print(items)
 
-dict_a = {}
-for _ in range(int(input())):
-        name = input()
-        score = float(input())
-        dict_a[name] = score
-values=sorted(list(set(dict_a.values())))
-lst = []
-for key, value in dict_a.items():
-        if values[1] == value:
-            lst.append(key)
-lst.sort()
-for items in lst:
-        print(items)
+# dict_a = {}
+# for _ in range(int(input())):
+#         name = input()
+#         score = float(input())
+#         dict_a[name] = score
+# values=sorted(list(set(dict_a.values())))
+# lst = []
+# for key, value in dict_a.items():
+#         if values[1] == value:
+#             lst.append(key)
+# lst.sort()
+# for items in lst:
+#         print(items)
